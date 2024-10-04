@@ -84,7 +84,7 @@ div > .titulo {
     align-items: center;
 }
 
-/* SECTION TWO ; SEDES */
+/* SECTION TWO ; QUIENES SOMOS */
 
 .nosotros {
     display: flex;
@@ -175,15 +175,19 @@ div > .titulo {
 /* SECTION FOUR ; SERVICES */
 
 .service {
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
+    background: black;
+    
 }
 
 .title4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
     height: 100px;
     font-size: 30px;
+    color: aliceblue;
 }
 
 .serv-galery {
@@ -258,21 +262,27 @@ div > .titulo {
 
 /* SECTION FIVE ; SEDES */
 
-
+.sedes{
+    background: gainsboro;
+    
+}
 .sede_title {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
     height: 100px;
     font-size: 30px;
 }
 
 .sede1 > .img_sede1 {
    width: 700px; 
+   margin-bottom: 50px;
 } 
 
 .sede2 > .img_sede2 {
     width: 700px;
+    margin-bottom: 50px;
 }
 
 .img_sedes {
@@ -280,6 +290,73 @@ div > .titulo {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* SECTION SIX ; COLUMNAS */
+
+.col_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+}
+.col_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.as_legales {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+.republica {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+.tiempo {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+.portafolio {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.espectador {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.patria {
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.link_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 15px;
+}
+.ver_col{
+    text-decoration: none; 
+    color: hsla(212, 100%, 10%, 0.801);
+    
+}
+
+.ver_col:hover{
+
+    text-decoration: underline;
+}
+
+
+
 
 
 
