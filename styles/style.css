@@ -94,7 +94,7 @@ div > .titulo {
 
 }
 
-.title2 {
+.title_quiensomos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,20 +102,20 @@ div > .titulo {
     font-size: 25px;  
 }
 
-.subtitle2{
+.subtitle_quiensomos{
     width: 260px;
 }
 
-.qs_image > .imageqs {
+.quiensomos_image > .imageqs {
     width: 500px; 
     margin: 45px;  
 }
 
-.qs_text {
+.quiensomos_text {
     position: relative;
 }
 
-.qs_text > p {
+.quiensomos_text > p {
     position: absolute;
     bottom: 7rem;
     left: -7rem;
@@ -129,7 +129,7 @@ div > .titulo {
 
 
 
-/* SECTION THREE ; MISIÓN */
+/* SECTION THIRTH ; MISIÓN */
 
 .mision {
     display: flex;
@@ -139,7 +139,7 @@ div > .titulo {
     background: gainsboro;
 }
 
-.title3 {
+.title_mision {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,11 +152,11 @@ div > .titulo {
     margin: 42px;
 }
 
-.ms_text {
+.mision_text {
     position: relative;
 }
 
-.ms_text > p {
+.mision_text > p {
     position: absolute;
     bottom: 7rem;
     left: 16rem;
@@ -172,25 +172,24 @@ div > .titulo {
 
 
 
-/* SECTION FOUR ; SERVICES */
+/* SECTION FOURTH ; SERVICES */
 
 .service {
     /* background: #f2f2f2; */
     background: black;
+    padding: 4rem;
     
 }
 
-.title4 {
+.title_serv {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5rem;
     height: 100px;
     font-size: 30px;
     color: aliceblue;
 }
 
-.serv-galery {
+.serv-gallery {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -200,11 +199,9 @@ div > .titulo {
     width: 33%;
     margin-bottom: 10px;
     height: 240px;
-    overflow: hidden;
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    
 }
 
 .serv-image > h3 {
@@ -212,9 +209,8 @@ div > .titulo {
     z-index: 1;
 }
 
-.serv-galery > h3{
-    color: #141E30;
-    
+.serv-gallery > h3{
+    color: #141E30;   
 }
 
 .serv-image > img {
@@ -250,9 +246,19 @@ div > .titulo {
     font-size: 15px;
 }
 
-.title-serv:hover {
-    display: none;
+.subtitle-serv {
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
+
+ .subtitle-serv:hover{
+    position: absolute;
+    opacity: 0%; 
+} 
 
 
 .serv-image:hover .hover-serv{
@@ -260,12 +266,8 @@ div > .titulo {
 }
 
 
-/* SECTION FIVE ; SEDES */
+/* SECTION FIFTH ; SEDES */
 
-.sedes{
-    background: gainsboro;
-    
-}
 .sede_title {
     display: flex;
     justify-content: center;
@@ -291,51 +293,39 @@ div > .titulo {
     justify-content: space-evenly;
 }
 
-/* SECTION SIX ; COLUMNAS */
+/* SECTION SIXTH ; COLUMNAS */
+
+.columnas{
+    background-color: #f5f5f5;
+}
 
 .col_title{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
     height: 100px;
     font-size: 30px;
 }
-.col_gallery{
+
+.col_gallery img {
+    width: 210px;
+    height: 95px;
+    margin-bottom: 30px; 
+}
+
+.cuatro_img{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
-.as_legales {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 30px;
+.dos_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
 }
-.republica {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 30px;
-}
-.tiempo {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 30px;
-}
-.portafolio {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 20px;
-}
-.espectador {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 20px;
-}
-.patria {
-    width: 300px;
-    height: 140px;
-    margin-bottom: 20px;
-}
+
 
 .link_col{
     display: flex;
@@ -344,20 +334,90 @@ div > .titulo {
     height: 100px;
     font-size: 15px;
 }
-.ver_col{
+.mostrar_col{
     text-decoration: none; 
     color: hsla(212, 100%, 10%, 0.801);
     
 }
 
-.ver_col:hover{
+.mostrar_col:hover{
 
     text-decoration: underline;
 }
 
+/* SEVENTH PAGE ; CLIENTES */
+
+.clientes{
+    background-color: black;
+}
+
+.clientes_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    height: 100px;
+    font-size: 30px; 
+    color: aliceblue;  
+}
+
+.clientes_text{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    padding: 15px; 
+    color: #f5f5f5;
+}
 
 
+.carrusel{
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carrusel-images{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
+.carrusel-images .carrusel-img img {
+    width: 150px;
+    height: 150px;
+    box-shadow: -2px 0px 0px 1px rgba(245,245,245,1);
+    margin: 10px;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+
+/* EIGTH PAGE NUESTROS RESPALDOS */
+
+.respaldos_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    height: 100px;
+    font-size: 30px;  
+}
+
+.respaldos_text{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    padding: 15px; 
+}
+
+.respaldos_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
